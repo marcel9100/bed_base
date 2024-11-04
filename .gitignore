@@ -1,0 +1,29 @@
+.DS_Store
+.idea
+__pycache__
+*.pickle
+.Rproj.user
+mlruns/*
+outputs/*
+multirun/*
+mlflow_outputs/*
+*.o
+*.csv
+# .vscode/*
+zignore*
+.ipynb_checkpoints/*
+# Binary PyTorch models
+*.pt
+*.npz
+stepdad.egg-info/*
+
+results_csvs/*
+stepdad/mlruns/*
+stepdad/multirun/*
+*.png
+playground_outputs/*
+stepdad/submitit/20240408_location_finding_50k_500_finetune_second_marcel.sh
+stepdad/submitit/20240408_location_finding_10k_2500_finetune_second_marcel.sh
+stepdad/submitit/20240408_location_finding_50k_500_finetune_first_marcel.sh
+stepdad/submitit/20240408_location_finding_10k_2500_finetune_first_marcel.sh
+stepdad/models/mlruns/*
